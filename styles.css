@@ -33,11 +33,18 @@ main {
   padding: 2rem;
 }
 
-/* section {
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  grid-template-columns: 200px 200px 200px;
 }
 
-.product {
-} */
+.product img {
+  width: 250px;
+  height: 200px;
+  object-fit: cover;
+}
 
 footer {
   background-color: #333;
