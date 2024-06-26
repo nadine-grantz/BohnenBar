@@ -36,14 +36,14 @@ main {
 .products {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  grid-template-columns: 200px 200px 200px;
+  justify-content: center;
 }
 
 .product img {
-  width: 250px;
-  height: 200px;
+  width: 350px;
+  height: 300px;
   object-fit: cover;
+  padding: 2rem;
 }
 
 footer {
