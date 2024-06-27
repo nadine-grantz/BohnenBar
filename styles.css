@@ -55,3 +55,8 @@ footer {
   bottom: 0;
   width: 100%;
 }
+
+header h1 a {
+  color: #303030;
+  text-decoration: none;
+}
