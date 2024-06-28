@@ -60,3 +60,30 @@ header h1 a {
   color: #303030;
   text-decoration: none;
 }
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.overlay-text {
+  position: absolute;
+  left: 3rem;
+  color: white;
+}
+
+.bold-text {
+  bottom: 6rem;
+  font-weight: bold;
+}
+
+.small-text {
+  bottom: 3rem;
+  font-size: 0.8rem;
+}
