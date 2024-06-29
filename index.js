@@ -2,9 +2,9 @@ document.addEventListener("DOMContentLoaded", function () {
   const navHTML = `
       <nav>
         <ul>
-          <li><a href="coffee.html">Coffee</a></li>
-          <li><a href="cubs.html">Cubs</a></li>
-          <li><a href="accessories.html">Accessories</a></li>
+          <li><a href="/pages/coffee.html">Coffee</a></li>
+          <li><a href="/pages/cubs.html">Cubs</a></li>
+          <li><a href="/pages/accessories.html">Accessories</a></li>
         </ul>
       </nav>
     `;
