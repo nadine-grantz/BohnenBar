@@ -39,20 +39,28 @@ main {
   justify-content: center;
 }
 
-.product img {
+.product {
+  margin: 1rem;
+  position: relative;
   width: 350px;
+}
+
+.product img {
+  width: 100%;
   height: 300px;
   object-fit: cover;
-  padding: 2rem;
+  display: block;
 }
 
 footer {
+  position: fixed;
   background-color: #333;
   color: white;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   bottom: 0;
   width: 100%;
+  left: 0;
 }
 
 header h1 a {
@@ -60,21 +68,10 @@ header h1 a {
   text-decoration: none;
 }
 
-.image-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.image-wrapper img {
-  width: 350px;
-  height: 300px;
-  object-fit: cover;
-}
-
 .overlay-text {
   position: absolute;
-  left: 3rem;
   color: white;
+  padding: 0 1rem;
 }
 
 .bold-text {
@@ -85,5 +82,5 @@ header h1 a {
 .small-text {
   bottom: 3rem;
   font-size: 0.8rem;
-  width: 330px;
+  width: calc(100% - 2rem);
 }
