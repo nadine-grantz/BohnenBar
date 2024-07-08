@@ -85,12 +85,12 @@ header h1 a {
   width: calc(100% - 2rem);
 }
 
-
 #advice-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
   padding: 1em;
+  justify-content: center;
 }
 
 .card {
@@ -98,10 +98,22 @@ header h1 a {
   border: 1px solid #ddd;
   border-radius: 5px;
   padding: 1em;
-  width: calc(33% - 2em);
+  width: 100%;
+  max-width: 350px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  box-sizing: border-box;
 }
 
 .card h2 {
   margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .products, #advice-container {
+    justify-content: space-between;
+  }
+
+  .product, .card {
+    width: calc(33% - 2em);
+  }
 }
