@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Black Coffee - BohnenBar</title>
+    <link rel="stylesheet" href="../styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1><a href="../index.html">BohnenBar</a></h1>
+      <div class="dynamic-nav"></div>
+    </header>
+    <main>
+        <section class="product-detail">
+            <div class="product">
+              <img src="../public/blackCoffee.jpg" alt="Black Coffee" />
+              <p class="overlay-text bold-text">Black Coffee</p>
+            </div>
+        <p>Experience the pure taste of black coffee. Perfect for any occasion.</p>
+        <form action="/order" method="post">
+          <fieldset>
+            <legend>Size:</legend>
+            <label><input type="checkbox" name="size" value="250g-ground"> 250g ground</label><br>
+            <label><input type="checkbox" name="size" value="250g-beans"> 250g beans</label><br>
+            <label><input type="checkbox" name="size" value="500g-ground"> 500g ground</label><br>
+            <label><input type="checkbox" name="size" value="500g-beans"> 500g beans</label><br>
+          </fieldset>
+          <input type="hidden" name="product" value="Black Coffee">
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2024 BohnenBar. All rights reserved.</p>
+    </footer>
+    <script src="../index.js"></script>
+  </body>
+</html>
