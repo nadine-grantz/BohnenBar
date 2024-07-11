@@ -119,3 +119,13 @@ header h1 a {
     width: calc(33% - 2em);
   }
 }
+
+.product-name,
+.product-price {
+  color:#333;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0.5rem 0;
+}
