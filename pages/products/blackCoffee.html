@@ -18,7 +18,14 @@
               <p class="overlay-text bold-text">Black Coffee</p>
             </div>
         <p>Experience the pure taste of black coffee. Perfect for any occasion.</p>
-        <form action="/action_page.php">
+        <form> 
+          <label for="weight">Choose a weight:</label>
+          <select name="weight" id="weight">
+            <option value="weight-250g-price-10,99€-coffee">250g - 10,99€</option>
+            <option value="weight-500g-price-18,00€-coffee">500g - 18,00€</option>
+            <option value="weight-1000g-price-44,00€-coffee">1000g - 44,00€</option>
+          </select>
+          <br><br>
           <label for="brew-method">Choose a brewing method:</label>
           <select name="brew-method" id="brew-method">
             <option value="filtermaschine">Filtermaschine</option>

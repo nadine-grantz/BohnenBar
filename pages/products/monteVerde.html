@@ -18,7 +18,14 @@
               <p class="overlay-text bold-text">Monte Verde</p>
             </div>
         <p>Experience the pure taste of Monte Verde. Perfect for any occasion.</p>
-        <form action="/action_page.php">
+        <form>
+          <label for="weight">Choose a weight:</label>
+          <select name="weight" id="weight">
+            <option value="weight-250g-price-12,99€-coffee">250g - 12,99€</option>
+            <option value="weight-500g-price-24,00€-coffee">500g - 24,00€</option>
+            <option value="weight-1000g-price-43,00€-coffee">1000g - 43,00€</option>
+          </select>
+          <br><br>
           <label for="brew-method">Choose a brewing method:</label>
           <select name="brew-method" id="brew-method">
             <option value="filtermaschine">Filtermaschine</option>
