@@ -18,16 +18,16 @@
               <p class="overlay-text bold-text">Monte Verde</p>
             </div>
         <p>Experience the pure taste of Monte Verde. Perfect for any occasion.</p>
-        <form>
-          <fieldset>
-            <legend>Size:</legend>
-            <label><input type="checkbox" name="size"> 250g ground</label><br>
-            <label><input type="checkbox" name="size"> 250g beans</label><br>
-            <label><input type="checkbox" name="size"> 500g ground</label><br>
-            <label><input type="checkbox" name="size"> 500g beans</label><br>
-          </fieldset>
-          <input type="hidden" name="product">
-          <button type="submit">Submit</button>
+        <form action="/action_page.php">
+          <label for="brew-method">Choose a brewing method:</label>
+          <select name="brew-method" id="brew-method">
+            <option value="filtermaschine">Filtermaschine</option>
+            <option value="frenchpress">Frenchpress</option>
+            <option value="siebträger">Siebträger</option>
+            <option value="handfilter">Handfilter</option>
+          </select>
+          <br><br>
+          <input type="submit" value="Submit">
         </form>
       </section>
     </main>
