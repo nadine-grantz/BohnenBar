@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Black Coffee - BohnenBar</title>
     <link rel="stylesheet" href="../../styles.css" />
+    <link rel="stylesheet" href="productStyles.css" />
   </head>
   <body>
     <header>
@@ -14,29 +15,30 @@
     <main>
         <section class="product-detail">
             <div class="product">
-              <img src="../../public/blackCoffee.jpg" alt="Black Coffee" />
+              <img src="../../public/blackCoffee.jpg" alt="Black Coffee" class="blackCoffee" />
               <p class="overlay-text bold-text">Black Coffee</p>
             </div>
-        <p>Experience the pure taste of black coffee. Perfect for any occasion.</p>
-        <form> 
-          <label for="weight">Choose a weight:</label>
-          <select name="weight" id="weight">
-            <option value="weight-250g-price-10,99€-coffee">250g - 10,99€</option>
-            <option value="weight-500g-price-18,00€-coffee">500g - 18,00€</option>
-            <option value="weight-1000g-price-44,00€-coffee">1000g - 44,00€</option>
-          </select>
-          <br><br>
-          <label for="brew-method">Choose a brewing method:</label>
-          <select name="brew-method" id="brew-method">
-            <option value="filtermaschine">Filtermaschine</option>
-            <option value="frenchpress">Frenchpress</option>
-            <option value="siebträger">Siebträger</option>
-            <option value="handfilter">Handfilter</option>
-          </select>
-          <br><br>
-          <input type="submit" value="Submit">
-        </form>
-      </section>
+            <div class="details">
+              <form> 
+                <label for="weight">Choose a weight:</label>
+                <select name="weight" id="weight">
+                  <option value="weight-250g-price-10,99€-coffee">250g - 10,99€</option>
+                  <option value="weight-500g-price-18,00€-coffee">500g - 18,00€</option>
+                  <option value="weight-1000g-price-44,00€-coffee">1000g - 44,00€</option>
+                </select>
+                <br><br>
+                <label for="brew-method">Choose a brewing method:</label>
+                <select name="brew-method" id="brew-method">
+                  <option value="filtermaschine">Filtermaschine</option>
+                  <option value="frenchpress">Frenchpress</option>
+                  <option value="siebträger">Siebträger</option>
+                  <option value="handfilter">Handfilter</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Submit">
+              </form>
+            </div>
+        </section>
     </main>
     <footer>
       <p>&copy; 2024 BohnenBar. All rights reserved.</p>
