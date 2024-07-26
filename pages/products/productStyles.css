@@ -1,5 +1,6 @@
 
 body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -29,6 +30,7 @@ body {
     gap: 2rem;
     padding: 2rem;
     box-sizing: border-box;
+    flex-direction: row-reverse;
   }
   
   .product img {
@@ -95,5 +97,25 @@ body {
     .product-detail .details {
       margin-top: 2rem;
     }
+
+    .product-description {
+        text-align: center;
+      }
+
+    .product-description {
+    text-align: left;
+    width: 100%;
+    max-width: 520px;
+    font-family: inherit;
+      }
+
+    .product-description h2 {
+    text-transform: uppercase;
+    color: #303030;
+      }
+      
+    .product-description p {
+    color: #303030; 
+      }
   }
   
