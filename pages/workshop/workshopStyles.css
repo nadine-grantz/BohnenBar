@@ -1,15 +1,12 @@
 .workshops {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .workshop-card {
-    flex: 1 1 calc(20% - 32px);
-    max-width: calc(20% - 32px);
+    position: relative; 
     border: 1px solid #e0e0e0;
     border-radius: 10px;
-    overflow: hidden;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     margin: 16px;
@@ -23,13 +20,14 @@
 }
 
 .workshop-category {
+    position: absolute; 
+    top: 0.5rem; 
+    left: 0.5rem; 
     background-color: #a6a6a3; 
     color: #fff;
-    padding: 5px;
-    margin-left: 5px;
+    padding: 5px 10px; 
     border-radius: 5px;
-    display: inline-block;
-    margin-bottom: 8px;
+    font-size: 0.9rem; 
 }
 
 .workshop-title {
