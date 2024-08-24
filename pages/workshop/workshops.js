@@ -5,7 +5,7 @@ function renderWorkshops() {
     return `
       <div class="workshop-card">
         <img class="workshop-image" src="${workshop.image}" alt="${workshop.name}" />
-        <h2 class="workshop-title" >${workshop.name}</h2>
+        <h2 class="product-name" >${workshop.name}</h2>
         <p class="workshop-category" >${workshop.category}</p>
         <p class="workshop-price" >EUR ${workshop.price}</p>
     </div>
