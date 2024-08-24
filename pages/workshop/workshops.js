@@ -3,19 +3,21 @@ function renderWorkshops() {
 
   const workshopHTML = cafeWorkshops.map(workshop => {
     return `
-      <div class="workshop-item">
-        <img src="${workshop.image}" alt="${workshop.name}" />
-        <h2>${workshop.name}</h2>
-        <p>Category: ${workshop.category}</p>
-        <p>Price: EUR ${workshop.price}</p>
+    <div class="workshop-page">
+      <div class="workshop-card">
+        <img class="workshop-image" src="${workshop.image}" alt="${workshop.name}" />
+        <h2 class="workshop-title" >${workshop.name}</h2>
+        <p class="workshop-category" >Category: ${workshop.category}</p>
+        <p class="workshop-price" >Price: EUR ${workshop.price}</p>
       </div>
+    </div>
     `;
   }).join('');
 
   container.innerHTML += `<div class="workshops">${workshopHTML}</div>`;
 }
 
-document.addEventListener('DOMContentLoaded', renderWorkshops);
+window.addEventListener('DOMContentLoaded', renderWorkshops);
 
 const cafeWorkshops = [
   {
