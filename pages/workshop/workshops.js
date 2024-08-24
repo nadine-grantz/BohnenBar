@@ -3,13 +3,11 @@ function renderWorkshops() {
 
   const workshopHTML = cafeWorkshops.map(workshop => {
     return `
-    <div class="workshop-page">
       <div class="workshop-card">
         <img class="workshop-image" src="${workshop.image}" alt="${workshop.name}" />
         <h2 class="workshop-title" >${workshop.name}</h2>
-        <p class="workshop-category" >Category: ${workshop.category}</p>
-        <p class="workshop-price" >Price: EUR ${workshop.price}</p>
-      </div>
+        <p class="workshop-category" >${workshop.category}</p>
+        <p class="workshop-price" >EUR ${workshop.price}</p>
     </div>
     `;
   }).join('');
