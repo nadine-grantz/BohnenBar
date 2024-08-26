@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100vh;
+  height: auto;
 }
 
 header {
@@ -80,7 +80,7 @@ header h1 a {
 }
 
 .bold-text {
-  bottom: 6rem;
+  bottom: 9rem;
   font-weight: bold;
 }
 
