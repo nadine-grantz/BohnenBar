@@ -77,13 +77,8 @@ header h1 a {
   position: absolute;
   color: white;
   padding: 0 1rem;
-  opacity: 0; /* Initial verstecken */
-  transition: opacity 0.5s ease; /* Sanfter Übergang bei Hover */
 }
 
-.product:hover .overlay-text {
-  opacity: 1; /* Sichtbar beim Hover über das Produkt */
-}
 
 .bold-text {
   bottom: 9rem;
@@ -128,6 +123,16 @@ header h1 a {
   .product, .card {
     width: calc(33% - 2em);
   }
+
+  .product:hover .overlay-text {
+    opacity: 1; 
+  }
+
+
+.overlay-text {
+  opacity: 0; 
+  transition: opacity 0.5s ease; 
+}
 }
 
 .product-name,
