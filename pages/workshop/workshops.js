@@ -67,12 +67,6 @@ const cafeWorkshops = [
     category: "Art"
   },
   {
-    name: "Vintage Clothing Swap",
-    image: "https://images.unsplash.com/photo-1518719161176-290f990bf5b7?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8dmludGFnZSUyMGZsb2htYXJrdHxlbnwwfHwwfHx8Mg%3D%3D",
-    price: 5,
-    category: "Textile"
-  },
-  {
     name: "Espresso Masterclass",
     image: "https://images.unsplash.com/photo-1644326646187-b6dbeea5cf62?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8ZXNwcmVzc298ZW58MHx8MHx8fDI%3D",
     price: 26,
@@ -83,12 +77,6 @@ const cafeWorkshops = [
     image: "https://images.unsplash.com/photo-1590494075205-9d76c8784f11?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fE1hY3JhbWV8ZW58MHx8MHx8fDI%3D",
     price: 20,
     category: "Textile"
-  },
-  {
-    name: "Handmade Candle Workshop",
-    image: "https://images.unsplash.com/photo-1643625668608-6e135f415c2a?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    price: 28,
-    category: "Craft"
   },
   {
     name: "Sustainable Fashion Talk",
