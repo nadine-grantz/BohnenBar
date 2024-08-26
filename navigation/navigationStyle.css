@@ -2,15 +2,9 @@
 display: flex;
 justify-content: space-between;
 align-items: center;
-background-color: grey;
+background-color: #FFFFFF;
 padding: 20px 50px;
 position: relative;
-}
-
-.logo{
-    font-size: 30px;
-    color: red;
-    font-weight: bold;
 }
 
 .toggle-button{
@@ -23,7 +17,7 @@ position: relative;
     width: 35px;
     height: 4px;
     border-radius: 5px;
-    background-color: aqua;
+    background-color: #303030;
     margin: 3px 0px;
 }
 
@@ -38,7 +32,8 @@ position: relative;
 
 .nav-links li a{
     font-size: 17px;
-    color: gold;
+    font-weight: bold;
+    color: #000000;
     text-decoration: none;
     transition: 0.4s ease;
 }
@@ -60,11 +55,19 @@ position: relative;
         flex-direction: column;
         position: absolute;
         width: 100%;
-        background-color: orange;
         padding: 25px;
         top: 100%;
         left: 0;
+        z-index: 1;
+        background-color: #000;
+        color: #FFFFFF;
+        opacity: .8;
     }
+
+
+.nav-links li a{
+    color: #FFFFFF;
+}
 
     .nav-links li{
         padding: 12px 0px;
