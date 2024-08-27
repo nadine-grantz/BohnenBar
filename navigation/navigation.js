@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
           <li><a href="/pages/products/coffee/index.html">Coffee</a></li>
           <li><a href="/pages/products/cups/index.html">Cups</a></li>
           <li><a href="/pages/moccamaster/moccamaster.html">Moccamaster</a></li>
+           <li id="otherMenu">
+            <a>Other >></a>
+            <ul>
+              <li><a href="/pages/other/plantage/index.html">Plantage</a></li>
+              <li><a href="/pages/other/rainforest/index.html">Rainforest</a></li>
+              <li><a href="/pages/other/workshop/index.html">Workshops</a></li>
+            </ul>
+          </li>
         </ul>
       </div>
     `;
@@ -21,9 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const toggleButton = document.getElementById('toggleButton');
     const navLinks = document.getElementById('navLinks');
+    const otherMenu = document.getElementById('otherMenu');
 
     toggleButton.addEventListener('click', () => {
         navLinks.classList.toggle('active');
+      });
+
+    otherMenu.addEventListener('click', () => {
+      otherMenu.classList.toggle('active');
     });
 });
 
