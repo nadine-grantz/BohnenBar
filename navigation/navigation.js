@@ -10,9 +10,9 @@ document.addEventListener('DOMContentLoaded', () => {
           <div class="bar"></div>
         </div>
         <ul class="nav-links" id="navLinks">
-          <li><a href="/pages/coffee.html">Coffee</a></li>
-          <li><a href="/pages/cups.html">Cups</a></li>
-          <li><a href="../pages/moccamaster/moccamaster.html">Moccamaster</a></li>
+          <li><a href="/pages/products/coffee/index.html">Coffee</a></li>
+          <li><a href="/pages/products/cups/index.html">Cups</a></li>
+          <li><a href="/pages/moccamaster/moccamaster.html">Moccamaster</a></li>
         </ul>
       </div>
     `;
