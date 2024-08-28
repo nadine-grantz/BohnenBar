@@ -16,7 +16,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
     box-sizing: border-box;
-    padding: 10px;
     position: relative;
 }
 
@@ -56,6 +55,8 @@
     margin-bottom: 8px;
     font-size: 0.85rem;
     color: #666;
+    border-radius: 3px;
+    border: #333;
 }
 
 
