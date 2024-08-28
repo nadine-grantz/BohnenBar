@@ -6,7 +6,7 @@ function renderCoffee() {
       return `
        <div class="product">
           <a href="${coffee.link}">
-            <img src="${coffee.image}" alt="${coffee.name}" />
+            <img class= hover-effect src="${coffee.image}" alt="${coffee.name}" />
           </a>
           <p class="product-name">${coffee.name}</p>
           <p class="product-price">EUR ${coffee.price}</p>
