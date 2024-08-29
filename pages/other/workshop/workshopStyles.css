@@ -43,21 +43,10 @@
 .workshop-name {
     font-size: 1rem;
     margin: 8px 0;
-    line-height: 1.2;
     color: #333;
+    padding: 4px 10px; 
 }
 
-
-.workshop-details {
-    display: flex;
-    gap: 5px;
-    flex-wrap: wrap;
-    margin-bottom: 8px;
-    font-size: 0.85rem;
-    color: #666;
-    border-radius: 3px;
-    border: #333;
-}
 
 
 .workshop-price {
@@ -68,8 +57,33 @@
     margin-top: auto;
    margin-bottom: 0.3rem;
 }
- 
-@media (max-width: 1200px) {
+
+.details-container {
+    display: flex;
+    gap: 10px;
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+  }
+  
+  .info-box {
+    padding: 4px 10px;  
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 0.85rem; 
+    color: #333; 
+    font-weight: 500; 
+  }
+  
+  .workshop-details,
+  .workshop-duration {
+    font-size: 0.7rem;
+  }
+
+    @media (max-width: 1200px) {
     .workshop-card {
         flex: 1 1 calc(25% - 32px);
         max-width: calc(25% - 32px);
