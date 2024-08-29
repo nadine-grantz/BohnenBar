@@ -8,8 +8,8 @@ function renderWorkshops() {
         <img class="workshop-image" src="${workshop.image}" alt="${workshop.name}" />
         <p class="workshop-name" >${workshop.name}</p>
        <div class="details-container">
-        <div class="info-box workshop-details">${workshop.details}</div>
-        <div class="info-box workshop-duration">${workshop.duration}</div>
+        <div class="info-box">${workshop.details}</div>
+        <div class="info-box">${workshop.duration}</div>
       </div>
          <p class="workshop-price" >EUR ${workshop.price}</p>
     </div>

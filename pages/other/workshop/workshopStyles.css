@@ -60,28 +60,18 @@
 
 .details-container {
     display: flex;
-    gap: 10px;
+    gap: 0.5rem;
     padding: 12px;
-    background-color: rgba(255, 255, 255, 0.9);
-    z-index: 1;
   }
   
-  .info-box {
+  .info-box { 
+    display: flex;
     padding: 4px 10px;  
     border: 1px solid rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 0.85rem; 
+    font-size: 0.7rem; 
     color: #333; 
-    font-weight: 500; 
   }
   
-  .workshop-details,
-  .workshop-duration {
-    font-size: 0.7rem;
-  }
 
     @media (max-width: 1200px) {
     .workshop-card {
