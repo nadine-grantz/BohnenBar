@@ -14,8 +14,37 @@
     </header>
     <main>
       <section class="content-container">
+          <div class="filter-container">
+            <select id="filter-category">
+              <option value="">Category</option>
+              <option value="Bean Special">Bean Special</option>
+              <option value="Art">Art</option>
+              <option value="Craft">Craft</option>
+              <option value="Textile">Textil</option>
+            </select>
+
+            <select id="filter-details">
+              <option value="">Details</option>
+              <option value="Workshop">Workshop</option>
+              <option value="Event">Event</option>
+            </select>
+
+            <select id="filter-duration">
+              <option value="">Duration</option>
+              <option value="2h">2 Stunden</option>
+              <option value="2,5h">2,5 Stunden</option>
+              <option value="3h">3 Stunden</option>
+              <option value="3,5h">3,5 Stunden</option>
+              <option value="5h">5 Stunden</option>
+              <option value="till Closing">open End</option>
+            </select>
+
+            <input type="number" id="filter-price" placeholder="Preis EUR" />
+            <button id="filter-button">Filter</button>
+            <button id="show-all-button">Show all</button>
+          </div>
+
         <div class="text-container">
-          <h1>Workshops and Events</h1>
         </div>
       </section>
     </main>
