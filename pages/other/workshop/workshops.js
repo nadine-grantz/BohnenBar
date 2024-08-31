@@ -117,8 +117,6 @@ function applyFilters() {
     return matchesCategory && matchesDetails && matchesDuration && matchesPrice;
   });
 
-
-
   renderWorkshops(filteredWorkshops);
 }
 
@@ -128,13 +126,11 @@ function showAllWorkshops() {
   document.getElementById('filter-duration').value = '';
   document.getElementById('filter-price').value = '';
 
-
   renderWorkshops(cafeWorkshops);
 }
 
 function renderWorkshops(workshops = cafeWorkshops) {
   const container = document.querySelector('.text-container');
-
 
   const existingWorkshops = container.querySelector('.workshops');
   if (existingWorkshops) existingWorkshops.remove();
